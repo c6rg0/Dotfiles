@@ -7,7 +7,7 @@ tofi - Keybind activated menu \
 waybar - Customizable bar \
 
 # Requirements
-There are too much, I'll finish this off one day.
+There are too many, I'll finish this off one day.
 
 # How to use these files:
 To lazy to finish this off...
