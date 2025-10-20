@@ -1,0 +1,13 @@
+# Ignore everything
+/*
+
+
+# Not these directories
+!/hypr/
+!/waybar/
+!/kitty/
+!/rofi/
+!/nvim/
+
+# Not these files
+!.gitignore
