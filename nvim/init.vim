@@ -17,6 +17,7 @@ Plug 'navarasu/onedark.nvim'
 Plug 'Mofiqul/vscode.nvim'
 Plug 'akinsho/bufferline.nvim', { 'tag': '*' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'brenoprata10/nvim-highlight-colors'
 call plug#end()
 
 "colorscheme kanagawa 
@@ -25,6 +26,7 @@ call plug#end()
 "    \ 'style': 'darker',
 "\}
 "colorscheme onedark
+
 
 lua << END
 require('lualine').setup {
@@ -115,6 +117,8 @@ require("gruvbox").setup({
 
 vim.cmd("colorscheme gruvbox")
 
+vim.opt.termguicolors = true
+require('nvim-highlight-colors').setup({})
 
 --[[
 
@@ -162,8 +166,10 @@ require('nightfox').setup({
   groups = {},
 })
 
+
 -- setup must be called before loading
 vim.cmd("colorscheme nightfox")
+
 require(ibl).setup()
 
 --]]

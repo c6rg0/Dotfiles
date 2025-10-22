@@ -13,7 +13,7 @@
 }
 
 window#waybar {
-    background: #0F0F17; 
+    background: #000000; 
   /*  border-radius: 15px; */
  /*  border: 2px solid #124323; */
 /* border: 0px solid #A1BDCE; */
@@ -24,10 +24,10 @@ window#waybar {
 
 tooltip {
         background: #171717;
-        color: #A1BDCE;
+        color: #ceb5a1;
         font-size: 13px;
         border-radius: 7px;
-       border: 2px solid #101a24;
+       border: 2px solid #2e3338;
 
 
     }
@@ -46,7 +46,7 @@ background: rgba(23, 23, 23, 0.0);
 
 #workspaces button {
 background: rgba(23, 23, 23, 0.0);
-    color: #A1BDCE;
+    color: #AC896E;
     box-shadow: none;
 	text-shadow: none;
     border-radius: 9px;
@@ -62,7 +62,7 @@ background: rgba(23, 23, 23, 0.0);
 
  
   /* background-image: url("/home/anik/Documents/bar1.png");*/
-    color: #A1BDCE;   
+    color: #AC896E;   
     transition: all 0.3s ease;
     padding-left: 4px;
     padding-right: 4px;
@@ -71,7 +71,7 @@ background: rgba(23, 23, 23, 0.0);
 
 #workspaces button:hover {
     background: none;
-    color: #72D792;
+    color: #B37284;
     animation: ws_hover 20s ease-in-out 1;
     transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
 }
@@ -114,11 +114,11 @@ background: rgba(23, 23, 23, 0.0);
     min-height: 16px;
     font-weight: bold;
     font-size: 13px;
-    color: #9488e3;
+    color: #B37284;
 }
 
 #tray menu separator {
-    min-height: 10px
+    min-height: 5px
 }
 
 
@@ -142,8 +142,8 @@ background:  #161320;
     color: #FFFFFF;
     background:  rgba(22, 19, 32, 0.9);
     margin: 6px 0px 6px 0px;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
     }
 
 #backlight{
@@ -151,9 +151,9 @@ background:  #161320;
     background: rgba(23, 23, 23, 0.0);
     font-weight: normal;
     font-size: 19px;
-    margin: 1px 0px 0px 0px;
-    padding-left: 0px;
-    padding-right: 2px;
+    margin: 2px 0px 0px 0px;
+    padding-left: 6px;
+    padding-right: 6px;
  
 }
 #bluetooth,
@@ -162,8 +162,8 @@ background:  #161320;
     background:  #161320;
     opacity: 1;
     margin: 4px 0px 4px 0px;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
  
 }
 #battery{
@@ -173,8 +173,8 @@ background:  #161320;
     background:  rgba(23, 23, 23, 0.0);
     opacity: 1;
     margin: 0px 0px 0px 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 6px;
+    padding-right: 6px;
  
 }
 
@@ -183,12 +183,12 @@ color: #24966e;
 background: @bar-bg;
     opacity: 1;
     margin: 4px 0px 4px 0px;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
 
 }
 #clock{
-    color: #A1BDCE;
+    color: #AC896E;
     font-size: 15px;
     font-weight: 900;
     font-family: "JetBrains Mono Nerd Font";
@@ -207,8 +207,8 @@ color: #6F8FDB;
     background:  rgba(22, 19, 32, 0.0);
     opacity: 1;
     margin: 0px 0px 0px 0px;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 #cpu{
 font-weight: normal;
@@ -252,8 +252,8 @@ animation: repeat;
 color: #A1BDCE;
 font-weight: normal;
 font-size: 19px;
-padding-right: 0px;
-padding-left: 4px
+padding-right: 6px;
+padding-left: 6px
 }
 #custom-notifications,
 #custom-spotify,
@@ -263,8 +263,8 @@ padding-left: 4px
 color: #E8EDF0;
 background:  rgba(23, 23, 23, 0.0);
 margin: 0px 0px 0px 0px;
-    padding-left: 1px;
-    padding-right: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
     opacity: 0.1
 }
 #tray,
@@ -272,7 +272,7 @@ margin: 0px 0px 0px 0px;
 #custom-wallchange,
 #custom-wbar,
 #window{
-color: #A1BDCE;
+color: #AC896E;
 font-family: "Martian Mono";
 }
 #custom-l_end,
@@ -295,8 +295,8 @@ font-weight: normal;
     background:  rgba(23, 23, 23, 0.0);
     opacity: 1;
     margin: 0px 0px 0px 0px;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
   ;
     
 }
@@ -306,7 +306,7 @@ font-weight: normal;
   background: #A1BDCE;
   background-color: transparent;
   box-shadow: none;
-  margin-right: 7px;
+  margin-right: 6px;
 }
 
 #backlight-slider trough,
