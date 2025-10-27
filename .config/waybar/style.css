@@ -4,7 +4,6 @@
     font-weight: bold; 
     font-size: 15px;
 }
-
 #custom-notification {
   font-family: "JetBrains Mono Nerd Font";
   font-size: 17px;
@@ -158,7 +157,7 @@ background:  #161320;
 }
 #bluetooth,
 #custom-cliphist{
-    color: #E6E7E7;
+    color: #C8BA97;
     background:  #161320;
     opacity: 1;
     margin: 4px 0px 4px 0px;
@@ -237,15 +236,6 @@ margin: -2px 0px 0px 0px;
 padding-left: 1px;
 padding-right: 1px;
 }
-#mpris{
-color: white;
-animation: repeat;
-	animation-name: blink;
-	animation-duration: 3s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
 
 @keyframes blink {
     to {
@@ -265,7 +255,7 @@ padding-left: 6px
 #taskbar,
 #custom-theme,
 #custom-menu{
-color: #E8EDF0;
+color: #C8BA97;
 background:  rgba(23, 23, 23, 0.0);
 margin: 0px 0px 0px 0px;
     padding-left: 6px;
@@ -296,7 +286,7 @@ font-weight: bold
 }
 #custom-rr_end {
 font-weight: normal;
-    color: #E8EDF0;
+    color: #C8BA97;
     background:  rgba(23, 23, 23, 0.0);
     opacity: 1;
     margin: 0px 0px 0px 0px;
@@ -331,7 +321,7 @@ font-weight: normal;
 }
 
 #battery.charging, #battery.plugged {
-	color: #E8EDF0;
+	color: #C8BA97;
 	
 }
 
@@ -381,9 +371,7 @@ font-weight: normal;
     padding-left: 3px;
 }
 
-
 /* Style for launchers */
-
 #custom-expand {
     min-width: 25px;
     color: #A1BDCE;
