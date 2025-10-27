@@ -4,7 +4,11 @@
 # Not these files
 !.gitignore
 !.p10k.zsh
-!.zshrc	
+!.zshrc
+!README.md
+!Pictures/
+Pictures/*
+!Pictures/example1.png
 
 # Not these directories
 !.config/
