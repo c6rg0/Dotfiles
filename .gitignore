@@ -1,0 +1,19 @@
+# Ignore everything
+/*
+
+# Not these files
+!.gitignore
+!.p10k.zsh
+!.zshrc	
+
+# Not these directories
+!.config/
+.config/*
+!.config/hypr/
+!.config/waybar/
+!.config/kitty/
+!.config/rofi/
+!.config/nvim/
+!.config/fastfetch/
+
+
