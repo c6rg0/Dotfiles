@@ -12,4 +12,4 @@ List of technologies:
 - zsh - command line shell
 - p10k - cli plugin for aesthetics (responsible for the coloured bar)
 
-![alt text](http://github.com/c6rg0/Dotfiles/Pictures/example1.png)
+![example1](https://github.com/c6rg0/Dotfiles/blob/main/Pictures/example1.png)
