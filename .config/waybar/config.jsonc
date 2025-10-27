@@ -26,7 +26,7 @@
 
 "custom/led": {
     "format": "<span color='#021c18'>󰍿</span> <span color='#313436'></span> ",
-    "format-alt": "󰍿 <span color='#bbc2c7'></span> ",
+    "format-alt": "󰍿 <span color='#C8BA97'></span> ",
     "on-click": "~/mouse.sh",
     "tooltip": false,
 },
@@ -156,7 +156,7 @@
     "persistent-workspaces": {
         "3": [], // Always show a workspace with name '3', on all outputs if it does not exists
         "4": ["eDP-1"], // Always show a workspace with name '4', on output 'eDP-1' if it does not exists
-        "5": ["eDP-1", "DP-2"] // Always show a workspace with name '5', on outputs 'eDP-1' and 'DP-2' if it does not exists
+        "5": ["eDP-1", "HDMI-A-3"] // Always show a workspace with name '5', on outputs 'eDP-1' and 'DP-2' if it does not exists
     }
 },
 
@@ -297,7 +297,7 @@
             "on-scroll": 1,
             "on-click-right": "mode",
             "format": {
-                "months": "<span color='#ffead3'><b>{}</b></span>",
+                "months": "<span color='#C8BA97'><b>{}</b></span>",
                 "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
                 "today": "<span color='#ff6699'><b>{}</b></span>"
             }
@@ -322,11 +322,11 @@
         "rotate": 0,
         "format-charging": "<span color='#a6d189'>󱐋</span>",
         "format-plugged": "󰂄",
-       // "format-alt": "<<span weight='bold' color='#c2864a'>{time} <span weight='bold' color='white'>| <span weight='bold' color='#82d457'>{capacity}%</span></span></span>",
+        "format-alt": "<<span weight='bold' color='#c2864a'>{time} <span weight='bold' color='#C8BA97'>| <span weight='bold' color='#82d457'>{capacity}%</span></span></span>",
         "format-icons": ["󰝦","󰪞","󰪟","󰪠","󰪡","󰪢","󰪣","󰪤","󰪥"],
      //  "format-icons": ["","","","","","","",""],  
        //"format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
-        "on-click-right": "pkill waybar & hyprctl dispatch exec waybar",
+        "on-click-right": "pkill waybar & hyprctl dispatch exec waybar"
       //  "format-icons": [<i class='fa-solid fa-wifi-slash'></i>],
     
     },
@@ -412,16 +412,16 @@
         "format": "{icon} {}",
         "rotate": 0,
         "format-icons": {
-            "email-notification": "<span foreground='white'><sup></sup></span>",
-            "chat-notification": "󱋊<span foreground='white'><sup></sup></span>",
+            "email-notification": "<span foreground='#C8BA97'><sup></sup></span>",
+            "chat-notification": "󱋊<span foreground='#C8BA97'><sup></sup></span>",
             "warning-notification": "󱨪<span foreground='yellow'><sup></sup></span>",
             "error-notification": "󱨪<span foreground='red'><sup></sup></span>",
-            "network-notification": "󱂇<span foreground='white'><sup></sup></span>",
-            "battery-notification": "󰁺<span foreground='white'><sup></sup></span>",
-            "update-notification": "󰚰<span foreground='white'><sup></sup></span>",
-            "music-notification": "󰝚<span foreground='white'><sup></sup></span>",
-            "volume-notification": "󰕿<span foreground='white'><sup></sup></span>",
-            "notification": "<span foreground='white'><sup></sup></span>",
+            "network-notification": "󱂇<span foreground='#C8BA97'><sup></sup></span>",
+            "battery-notification": "󰁺<span foreground='#C8BA97'><sup></sup></span>",
+            "update-notification": "󰚰<span foreground='#C8BA97'><sup></sup></span>",
+            "music-notification": "󰝚<span foreground='#C8BA97'><sup></sup></span>",
+            "volume-notification": "󰕿<span foreground='#C8BA97'><sup></sup></span>",
+            "notification": "<span foreground='#C8BA97'><sup></sup></span>",
             "none": ""
         },
         "return-type": "json",

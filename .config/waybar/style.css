@@ -4,22 +4,22 @@
     font-weight: bold; 
     font-size: 15px;
 }
+
 #custom-notification {
   font-family: "JetBrains Mono Nerd Font";
   font-size: 17px;
- color: #6e584e;
+ color: #C8BA97;
  margin: 2px 0px 0px 0px;
 }
 
 window#waybar {
-    background: #000000; 
+    background: black; 
   /*  border-radius: 15px; */
  /*  border: 2px solid #124323; */
 /* border: 0px solid #A1BDCE; */
  border: 3px solid rgba(255, 255, 255, 0.1);
  border-radius: 10px;
 }
-
 
 tooltip {
         background: #171717;
@@ -42,10 +42,9 @@ background: rgba(23, 23, 23, 0.0);
     padding-top: 1px;
 }
 
-
 #workspaces button {
 background: rgba(23, 23, 23, 0.0);
-    color: #6e584e;
+    color: #C8BA97;
     box-shadow: none;
 	text-shadow: none;
     border-radius: 9px;
@@ -55,13 +54,11 @@ background: rgba(23, 23, 23, 0.0);
  /*   animation: ws_normal 20s ease-in-out 1; */
 }
 
-
-
 #workspaces button.active {
 
  
   /* background-image: url("/home/anik/Documents/bar1.png");*/
-    color: #504039;   
+    color: #C8BA97;   
     transition: all 0.3s ease;
     padding-left: 4px;
     padding-right: 4px;
@@ -138,7 +135,7 @@ background:  #161320;
 
 #custom-power{
     font-size: 15px;
-    color: #FFFFFF;
+    color: #C8BA97;
     background:  rgba(22, 19, 32, 0.9);
     margin: 6px 0px 6px 0px;
     padding-left: 6px;
@@ -186,7 +183,7 @@ background: @bar-bg;
 
 }
 #clock{
-    color: #6e584e;
+    color: #C8BA97;
     font-size: 15px;
     font-weight: 900;
     font-family: "JetBrains Mono Nerd Font";
@@ -267,7 +264,7 @@ margin: 0px 0px 0px 0px;
 #custom-wallchange,
 #custom-wbar,
 #window{
-color: #6e584e;
+color: #C8BA97;
 font-family: "Martian Mono";
 }
 #custom-l_end,
@@ -374,7 +371,7 @@ font-weight: normal;
 /* Style for launchers */
 #custom-expand {
     min-width: 25px;
-    color: #A1BDCE;
+    color: #C8BA97;
     font-size: 16px;
 }
 

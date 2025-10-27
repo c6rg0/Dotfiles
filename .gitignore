@@ -13,7 +13,14 @@ Pictures/*
 !Pictures/example2.png
 !Pictures/example3.png
 
+
 # Not these directories
+!.zen/
+.zen/*
+!.zen/d7dj9687.Default\ \(release\)/
+.zen/d7dj9687.Default\ \(release\)/*
+!.zen/d7dj9687.Default\ \(release\)/prefs.js
+
 !.config/
 .config/*
 !.config/hypr/
