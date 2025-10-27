@@ -8,7 +8,10 @@
 !README.md
 !Pictures/
 Pictures/*
+!Pictures/wallpaper.png
 !Pictures/example1.png
+!Pictures/example2.png
+!Pictures/example3.png
 
 # Not these directories
 !.config/
